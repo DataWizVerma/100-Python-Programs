@@ -3,7 +3,7 @@
 num1=23
 num2=44
 
-print("The Sum Of Two Number is: " , num1+num2)
+#print("The Sum Of Two Number is: " , num1+num2)
 
 # ---------------OR-------------------
 
