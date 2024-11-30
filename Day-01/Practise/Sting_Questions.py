@@ -1,3 +1,12 @@
+# 1. Find the length of the longest word in a sentence.
+# Question:
+# Write a Python function that takes a sentence as input and returns the length of the longest word in that sentence.
+
+name=input("Enter Your name here:")
+le=len(name)
+print("Your name is:",name)
+print("And length is:",le)
+
 
 # Input the sentence
 sentence = input("Enter a sentence: ")
