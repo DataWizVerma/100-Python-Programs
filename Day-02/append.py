@@ -44,3 +44,16 @@ Output: 3 (since 6 appears 3 times)'''
 str_input=(9,7,6,8,7,1,2,3,6,6,8)
 num=str_input.count(6)
 print(num)
+
+'''Let‘s Practice
+
+WAP to ask the user to enter names of their 3 favorite movies & store them in a list.'''
+user_movie = input("Enter your favorite movies (separate them with a comma): ").split(',')
+print(user_movie)
+
+'''Write a Python program to remove duplicates from a list of movies using the set() method.
+
+Example:
+
+Input: ['Inception', 'Avatar', 'Titanic', 'Avatar', 'The Matrix', 'Titanic']
+Output: ['Inception', 'Avatar', 'Titanic', 'The Matrix']'''

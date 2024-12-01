@@ -1,3 +1,2 @@
-str_input=(9,7,6,8,7,1,2,3,6,6,8)
-num=str_input.count(6)
-print(num)
+user_movie = input("Enter your favorite movies (separate them with a comma): ").split(',')
+print(user_movie)
