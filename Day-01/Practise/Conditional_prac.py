@@ -59,3 +59,27 @@ if str_input==rev:
     print("It is Palindrome"),
 else:
     print("It is not a palindrome")
+
+'''Question:
+Write a Python program that takes a string as input and counts the frequency
+ of each character 
+in the string (ignoring spaces). Print the frequency of each character.'''
+# Take input from the user
+input_string = input("Enter a string: ")
+
+# Remove spaces from the input string
+input_string = input_string.replace(" ", "")
+
+# Create a dictionary to store the frequency of each character
+frequency = {}
+
+# Iterate through each character in the string
+for char in input_string:
+    if char in frequency:
+        frequency[char] += 1  # If the character is already in the dictionary, increase the count
+    else:
+        frequency[char] = 1  # If the character is not in the dictionary, add it with a count of 1
+
+# Print the frequency of each character
+for char, count in frequency.items():
+    print(f"{char}: {count}")
