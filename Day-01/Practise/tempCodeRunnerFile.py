@@ -1,16 +1,8 @@
+str_input=input("Enter Your Number Here:")
 
-# Input the sentence
-sentence = input("Enter a sentence: ")
+rev=str_input[::-1]
 
-# Split the sentence into words
-words = sentence.split()
-
-# Find the longest word
-longest_word = max(words, key=len)
-
-# Get the length of the longest word
-length_of_longest = len(longest_word)
-
-# Print the result
-print("The longest word is:", longest_word)
-print("The length of the longest word is:", length_of_longest)
+if str_input==rev:
+    print("It is Palindrome"),
+else:
+    print("It is not a palindrome")
