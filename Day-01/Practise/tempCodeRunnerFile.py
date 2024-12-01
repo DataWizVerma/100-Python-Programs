@@ -1,3 +1,3 @@
-str_input = [3, 4, 4, 3, 2, 6, 8, 7, 9]
-even_numbers = [num for num in str_input if num % 2 == 0]
-print(even_numbers)
+str_input = [30, 20, 50, 40, 20, 80, 90]
+num = str_input[-3:]  
+print(num)
