@@ -1,3 +1,3 @@
-str=[1,2,3,4,5,6,7,8,2,3,2]
-str.remove(2)
-print(str)
+str_input=(9,7,6,8,7,1,2,3,6,6,8)
+num=str_input.count(6)
+print(num)

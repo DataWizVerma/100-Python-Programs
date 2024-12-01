@@ -30,3 +30,17 @@ Example:
 
 Input: (1, 2, 3, 4, 5)
 Output: 3'''
+str_input=(3,4,5,6,6,2,1,6,3,9)
+num=str_input[2]
+print(num)
+
+'''Write a Python program to count the occurrences of a specific element (e.g., 6) 
+in a tuple using the count() method.
+
+Example:
+
+Input: (3, 4, 5, 6, 6, 2, 1, 6, 3, 9)
+Output: 3 (since 6 appears 3 times)'''
+str_input=(9,7,6,8,7,1,2,3,6,6,8)
+num=str_input.count(6)
+print(num)
