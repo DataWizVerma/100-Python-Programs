@@ -61,3 +61,10 @@ Output: ['Inception', 'Avatar', 'Titanic', 'The Matrix']'''
 str_input= ['Inception', 'Avatar', 'Titanic', 'Avatar', 'The Matrix', 'Titanic']
 num= list(set(str_input))
 print(num)
+
+
+# sort into a order 
+# Store the above values in a list & sort them from “A” to “D”
+str_input = ["C", "D", "A", "A", "B", "B", "A"]
+str_input.sort()  # Sorts the list in alphabetical order
+print(str_input)
