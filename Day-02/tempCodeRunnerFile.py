@@ -1,2 +1,3 @@
-user_movie = input("Enter your favorite movies (separate them with a comma): ").split(',')
-print(user_movie)
+str_input= ['Inception', 'Avatar', 'Titanic', 'Avatar', 'The Matrix', 'Titanic']
+num= list(set(str_input))
+print(num)

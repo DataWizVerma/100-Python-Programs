@@ -57,3 +57,7 @@ Example:
 
 Input: ['Inception', 'Avatar', 'Titanic', 'Avatar', 'The Matrix', 'Titanic']
 Output: ['Inception', 'Avatar', 'Titanic', 'The Matrix']'''
+
+str_input= ['Inception', 'Avatar', 'Titanic', 'Avatar', 'The Matrix', 'Titanic']
+num= list(set(str_input))
+print(num)
