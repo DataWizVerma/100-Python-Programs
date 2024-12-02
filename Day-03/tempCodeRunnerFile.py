@@ -1,9 +1,6 @@
-student={
-    "Name":"Kumar Verma",
-    "marks":{
-        "chemistry": 23,
-        "physics":20,
-        "Maths":33
-    }
+detail={
+    "Name":"Alice",
+    "Age": 25,
+    "City":"New York"
+
 }
-print(student.items)

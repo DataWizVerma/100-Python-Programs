@@ -12,3 +12,4 @@ new_dict={"Name":'kumar verma',
 student.update(new_dict)
 
 print(student)
+print(student.get('Name'))
