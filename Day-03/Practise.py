@@ -65,3 +65,18 @@ student.update({"Age": 21})
 student["Subjects"].append("Science")  # Add "Science" to the list
 print(student)
 
+# Question:
+
+# You have a dictionary with students' names as keys and their scores as values. Write a Python code to:
+
+# Add a new student and their score to the dictionary.
+# Modify the score of an existing student.
+# Remove a student from the dictionary.
+# Display the average score of all students.
+# Here’s the sample dictionary:
+
+students_scores = {
+    "Alice": 85,
+    "Bob": 78,
+    "Charlie": 92
+}
